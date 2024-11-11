@@ -913,4 +913,17 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0, 0, 0, 0.111) 4
         left: -15px !important;
         top: 5px !important;
     }
+    .heading-1 h2{
+        font-size: 25px !important;
+    }
+    .new-cars-txt p{
+        font-size: 16px !important;
+    }
+    .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand{
+        padding: 5px 0 !important;
+    }
+    .card-scroll{
+        padding: 35px 50px !important;
+        height: fit-content;
+    }
  }
