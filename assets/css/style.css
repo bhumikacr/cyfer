@@ -1129,3 +1129,63 @@ z-index: 1;
  .coparate-section{
     background: linear-gradient(358deg, rgb(255 255 255) 0%, rgb(253 219 223) 50%);
  }
+ .card-cop{
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+    padding: 20px;
+    height: 250px;
+ }
+ .top-img{
+    display: flex;
+    /* justify-content: space-between; */
+ }
+ .top-img h2{
+    background: linear-gradient(90deg, #4d22c4 0%, #d11294 100%);
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(to right, #f32170, #21ff08, #cf23cf);  */
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 10px;
+   
+ }
+ .card-cop p{
+    background: linear-gradient(90deg, #4d22c4 0%, #d11294 100%);
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(to right, #f32170, #21ff08, #cf23cf);  */
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-top: 5%;
+ }
+
+ .card-event{
+    border: 3px solid transparent;
+  border-radius: 10px;
+  background: 
+    linear-gradient(to right, white, white), 
+    linear-gradient(to right, #4d22c4 , #d11294); 
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+    padding: 10px;
+    margin-top: 5%;
+    text-align: center;
+    
+ }
+ .card-event p{
+    color: black;
+    font-size: 20px;
+ }
+ .card-event:hover{
+    background: linear-gradient(90deg, #865ef3 0%, #ff7fd6 100%);
+    border: none;
+    transition: all 2s;
+ }
+ .card-event:hover p{
+    color: white;
+ }
