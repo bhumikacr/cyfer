@@ -2,7 +2,7 @@
 
 }/*max-width:1680px*/
 @media screen and (max-width:1440px){
-	.welcome-hero-txt {padding: 268px 0px 122px;}
+	/* .welcome-hero-txt {padding: 268px 0px 122px;} */
 	.model-search-content {position: relative;bottom: 0;top: 100px;}
 }/*max-width:1440px*/
 
