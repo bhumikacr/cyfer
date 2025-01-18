@@ -945,6 +945,10 @@ z-index: 1;
         top: 15% !important;
        padding: 10px !important;
     }
+    .welcome-hero-txt.head{
+
+        top: 30% !important;
+    }
     .welcome-hero h2{
         font-size: 20px !important;
     }
@@ -1050,6 +1054,12 @@ z-index: 1;
     .welcome-hero-txt-3 img{
         display: none;
     }
+    .welcome-hero-txt-3.head{
+        top: 25% !important;
+    }
+    .welcome-hero-txt-3.head h2{
+       font-size: 37px;
+    }
  }
  .welcome-hero-txt h3{
     color: white;
@@ -1075,7 +1085,7 @@ z-index: 1;
  }
  .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 275px;
     height: 300px;
     perspective: 1000px;
     margin-top: 10%;
@@ -1384,5 +1394,13 @@ label{
         bottom: 10%;
         right: 0%;
         z-index: 99;
+    }
+}
+.logo-img{
+    width: 150px !important;
+}
+@media screen and (max-width:775px) {
+    .logo-img{
+        width: 200px !important;
     }
 }
