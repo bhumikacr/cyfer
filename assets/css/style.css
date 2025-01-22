@@ -974,6 +974,7 @@ z-index: 1;
     } */
     .welcome-hero h2{
         font-size: 20px !important;
+        text-align: left;
     }
     .welcome-hero-txt.head h2{
         font-size: 23px !important;
@@ -1016,11 +1017,21 @@ z-index: 1;
         right: 0;
         top: 5px !important;
     }
+    p{
+        text-align: left !important;
+        padding-right: 0;
+    }
     .heading-1 h2{
         font-size: 25px !important;
+        text-align: left;
     }
     .new-cars-txt p{
         font-size: 16px !important;
+        text-align: left;
+    }
+    .container-fluid{
+        padding-right: 10px;
+        padding-left: 25px
     }
     .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand{
         padding: 5px 0 !important;
@@ -1476,6 +1487,13 @@ label{
     .register-1 .nav-btn{
         padding: 15px !important;
         font-size: 18px !important;
+    }
+    .heading-2 h2{
+        text-align: left;
+        font-size: 25px !important;
+    }
+    .heading-2{
+        text-align: left;
     }
 }
 @media screen and (max-width:1400px) {
