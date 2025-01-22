@@ -278,6 +278,16 @@ z-index: 1;
     text-transform: uppercase;
     margin-bottom: 45px;
 }
+.welcome-hero-txt.head{
+    top:25%;
+}
+.welcome-hero-txt.head h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.welcome-hero-txt.head h3{
+    font-size: 33px;
+}
 .welcome-hero-txt p, .welcome-hero-txt-1 p, .welcome-hero-txt-2 p {
     font-size: 19px;
     text-transform: initial;
@@ -783,7 +793,7 @@ z-index: 1;
     -webkit-background-clip: text; 
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.32);
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 50px;
 
   }
   .wrap-sticky nav.navbar.bootsnav.sticked .navbar-brand{
@@ -820,8 +830,9 @@ z-index: 1;
   .card-scroll{
     /* width: 90%; */
     position: relative;
-    padding:70px 50px;
-    height: 300px;
+    padding:30px 40px;
+    height: 200px;
+    margin-top: 5%;
     
     border-top: 1px solid rgb(161, 161, 161);
  margin-bottom: 5%;
@@ -835,7 +846,7 @@ z-index: 1;
   }
   .scroll-section{
     /* position: relative; */
-    height: 400px;
+    height: 300px;
     overflow-y: scroll;
     scroll-behavior: smooth;
     /* scroll-snap-type: none; */
@@ -859,8 +870,13 @@ z-index: 1;
     border: 1px solid #ffffff;
   }
   .new-cars-txt p{
-    margin:3% 0;
+    margin:3% 0 0;
     font-size: 20px;
+  }
+  .new-cars-txt p a{
+    font-size: 20px;
+    font-weight: 500;
+
   }
   .new-cars-txt1 p{
     margin: 1% 0 !important;
@@ -868,7 +884,7 @@ z-index: 1;
   }
   .fix-scroll{
     width: 100%;
-    height: 85px;
+    height: 45px;
   }
   .card-1{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -952,12 +968,21 @@ z-index: 1;
         top: 15% !important;
        padding: 10px !important;
     }
-    .welcome-hero-txt.head{
+    /* .welcome-hero-txt.head{
 
         top: 30% !important;
-    }
+    } */
     .welcome-hero h2{
         font-size: 20px !important;
+    }
+    .welcome-hero-txt.head h2{
+        font-size: 23px !important;
+    }
+    .welcome-hero-txt.head h3{
+        font-size: 20px !important;
+    }
+    .section-1{
+        padding-top: 80% !important;
     }
     .new-cars-content{
         padding-top: 0px !important;
@@ -1024,9 +1049,17 @@ z-index: 1;
     /* background: linear-gradient(to right, #f32170, #21ff08, #cf23cf);  */
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 1%;
     font-weight: bold;
+ }
+ .heading-top-1 h2{
+    font-size: 30px !important;
+    text-align: left;
+    /* margin-top: 10%; */
+ }
+ .heading-top p{
+    text-align: left;
  }
  @media screen and (max-width:550px) {
     .heading-top h2{
@@ -1078,10 +1111,14 @@ z-index: 1;
  }
  .service-section{
     background: linear-gradient(358deg, rgb(255 255 255) 0%, rgb(253 219 223) 50%);
+    
+ }
+ .single-new-cars-item-1{
+    margin-top: 10%;
  }
  .service-section-1{
     background: linear-gradient(187deg, rgb(255 255 255) 0%, rgb(252, 232, 234) 55%);
-    padding:0 0 10%;
+    padding:5% 0 10%;
  }
  .flip-card-front h2{
     background: linear-gradient(90deg, #4d22c4 0%, #d11294 100%);
@@ -1182,6 +1219,9 @@ z-index: 1;
  .coparate-section{
     background: linear-gradient(358deg, rgb(255 255 255) 0%, rgb(253 219 223) 50%);
  }
+ .coparate-section-1{
+    padding-top: 0;
+ }
  .card-cop{
     margin-top: 5%;
     border-radius: 10px;
@@ -1225,21 +1265,27 @@ z-index: 1;
     }
 }
  .card-event{
-    border: 3px solid transparent;
+    /* border: 3px solid transparent; */
   border-radius: 10px;
-  background: 
+  /* background: 
     linear-gradient(to right, white, white), 
     linear-gradient(to right, #4d22c4 , #d11294); 
   background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-    padding: 10px;
+  background-origin: padding-box, border-box; */
+    padding: 10px 5px;
     margin-top: 5%;
     text-align: center;
+    height: 80px;
+    background: linear-gradient(90deg, #9b77fd 0%, #f9a1dd 100%);
     
  }
  .card-event p{
     color: black;
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 25px;
+ }
+ .card-event p.p{
+    margin-top: 5%;
  }
  .card-event:hover{
     background: linear-gradient(90deg, #865ef3 0%, #ff7fd6 100%);
@@ -1285,7 +1331,7 @@ z-index: 1;
 }
 .register input{
     width:100%;
-    padding:15px 15px 0px;
+    padding:15px 15px 20px;
     margin-top:5px;
     border:none;
     outline:none;
@@ -1330,6 +1376,12 @@ label{
 .new-section h5{
     margin-top: 2%;
     margin-bottom: 1%;
+}
+.new-section-1{
+    padding: 0;
+}
+.section-1{
+    padding-top: 15%;
 }
 .msg{
     height: 90px !important;
@@ -1464,7 +1516,7 @@ label{
         padding: 7px;
     }
     .welcome-hero-txt h3 {
-        font-size: 30px !important;
+        font-size: 30px ;
     }
     .welcome-hero-txt h2{
         font-size: 40px ;
@@ -1479,10 +1531,10 @@ label{
         font-size: 13px;
     }
     .heading-1 h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     .new-cars-txt p{
-        font-size: 17px;
+        font-size: 16px;
     }
     .card-cop p{
         font-size: 16px;
@@ -1501,5 +1553,47 @@ label{
     }
     .flip-card{
         height: 275px;
+    }
+    .heading-2 p{
+        font-size: 14px;
+    }
+    .new-cars-txt p a {
+        font-size: 17px;
+    }
+    .testimonial-comment p{
+        font-size: 14px;
+    }
+    .single-footer-widget p{
+        font-size: 15px;
+    }
+    .single-footer-widget ul li a{
+        font-size: 15px;
+    }
+    .welcome-hero-txt.head h2{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .welcome-hero-txt.head h3{
+        font-size: 25px;
+    }
+    .head button{
+        margin-top: 2%;
+    }
+    .card-event p{
+        color: black;
+        font-size: 16px;
+        line-height: 25px;
+     }
+     .heading-2 h2{
+        font-size: 30px;
+     }
+     .register input{
+        width:100%;
+        padding:15px 15px 0px;
+        margin-top:5px;
+        border:none;
+        outline:none;
+        border-radius: 10px;
+        
     }
 }
