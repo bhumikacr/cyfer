@@ -1317,18 +1317,24 @@ z-index: 1;
     color: white;
  }
  .card-event-1{
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(90deg, #865ef3 0%, #ff7fd6 100%);
+    /* display: flex;
+    justify-content: space-between; */
+    /* background: linear-gradient(90deg, #865ef3 0%, #ff7fd6 100%); */
     padding: 15px 30px;
     border-radius: 10px;
     margin-top: 30px;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  }
- .card-event-1 p{
-    color: white;
-    font-size: 20px;
+ .card-event-1 h2{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    text-align: center;
+    padding: 0 20px;
  }
-
+ .card-event-1 img{
+    margin-left: 10%;
+ }
 .register form{
     
     /* border:1px solid #ddd; */
@@ -1647,4 +1653,22 @@ label{
     .register label{
         margin-bottom: 15px;
     }
+    .card-event-1 h2{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        /* text-align: center; */
+        padding: 0 20px;
+     }
+     .card-event-1 p{
+        font-size: 13px;
+     }
+     .card-event-1 img{
+        width: 200px !important;
+        margin-left: 10%;
+     }
+     .card-event-1 .nav-btn{
+        padding: 0px;
+        font-size: 12px;
+     }
+
 }
